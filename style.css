@@ -96,6 +96,10 @@ aside section{
     background-color: #f4f4f4;
     display: flex;
     gap: 30px;
+    
+        
+       
+    
 }
 
 footer{
@@ -129,7 +133,31 @@ footer{
     aside {
         margin-top: 50px;
     }
+    
 }
+
+/* Mobile View */
+@media (max-width: 600px) {
+    header {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    nav ul {
+      flex-direction: column;
+    }
+  
+    .top-news .smaller-articles {
+      flex-direction: column;
+    }
+  
+    aside {
+      margin-top: 1rem;
+    }
+    .latest-news{
+        flex-direction: column;
+    }
+  }
 
 /* Tablet View */
 @media (min-width: 601px) and (max-width: 1024px) {
@@ -139,6 +167,11 @@ footer{
   
     .top-news .smaller-articles article {
       flex: 1 1 48%;
+    }
+    .latest-news{
+        flex: 1;
+        
+        
     }
   }
   
@@ -158,5 +191,8 @@ footer{
 
     .top-news .smaller-articles article {
         flex: 1 1 30%;
+    }
+    .latest-news{
+        flex: 2;
     }
 }
