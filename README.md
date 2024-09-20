@@ -46,7 +46,8 @@ This project is built with mobile-first design principles. The application is fu
 https://bejewelled-salmiakki-ab3933.netlify.app/
 
 ## Screenshots
-![alt](./image.png)
+![alt](./image/image.png)
+![alt](./image/image%20copy.png)
 
 
 ## 🤝 Contributing
