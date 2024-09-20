@@ -95,8 +95,9 @@ footer{
     text-align: center;
     padding: 15px;
     margin-top: 24px;
+    margin-bottom: -1rem;
 }
-
+ 
 .social-media a{
     color: #fff;
     margin: 8px;
