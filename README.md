@@ -43,7 +43,7 @@ HTML, CSS
 This project is built with mobile-first design principles. The application is fully responsive and ensures a smooth user experience across all screen sizes, from mobile phones to large desktops.
 
 ## Demo | Netlify
-https://gregarious-panda-1c4e37.netlify.app/
+https://steady-alpaca-ecba06.netlify.app/
 
 ## Screenshots
 ![alt](./image/image.png)
